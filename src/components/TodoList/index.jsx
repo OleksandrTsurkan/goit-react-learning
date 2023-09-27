@@ -1,7 +1,7 @@
-import { Component, useEffect, useState } from 'react'
+import {useEffect, useState } from 'react'
 import Todo from '../Todo'
 
-import { getAllTodo } from '../../api/todo'
+// import { getAllTodo } from '../../api/todo'
 import FormCreateTodo from '../Forms/FormCreateTodo'
 import FormFilterTodo from '../Forms/FormFilterTodo'
 import todoData from '../../data.json'
